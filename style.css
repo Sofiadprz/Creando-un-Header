@@ -1,0 +1,85 @@
+body{
+    background-color: beige;
+    margin: 0%;
+
+}
+@font-face {
+    font-family: "Monserrat";
+    src: url(./Font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+a{
+    text-decoration: none;
+    color: #63458A;
+}
+header{
+    display: flex;
+    border-radius: 2px;
+    min-height: 35px;
+    font-family: "Monserrat";
+    background-color: #9EBD6E;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 100px;
+    padding: 10px ;
+   box-shadow: 2px 2px 2px 2px #63458A;
+  
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    margin-right: 5px;
+}
+h2{
+    font-size: 15px;
+    display: inline-block;
+
+}
+nav{
+ font-weight: 600;
+ padding-right: 10px; 
+ font-size: 14px;  
+}
+
+nav a:hover{
+    color: beige;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+
+}
+
+
+
+#inputdebusqueda{
+    height: 18px;
+    border-color: aquamarine;
+    border-style: dotted;
+    border-radius: 3px 3px;
+    background-color: beige;
+    font-family: Monserrat;
+    color: #63458A;
+    
+    
+}
+
+#Buscar{
+    height: 17px;
+    background-color: beige;
+    font-family: Monserrat;
+    font-size: 9px;
+    color: #63458A;
+    border: 5px;
+    border-radius: 3px 3px;
+    
+    
+}
